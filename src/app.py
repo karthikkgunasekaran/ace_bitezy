@@ -18,7 +18,7 @@ if 'orders' not in st.session_state:
 
 def place_order(selected_item, delivery_option):
     delivery_cost = 10.00 if delivery_option == "Delivery" else 0.00
-    total_cost = selected_item["price"] 
+    total_cost = selected_item["price"] + delivery_cost
     if st.session_state.user_wallet >= total_cost:
         st.session_state.user_wallet -= total_cost
         order_details = {
