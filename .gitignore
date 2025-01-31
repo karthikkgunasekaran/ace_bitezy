@@ -8,6 +8,7 @@ __pycache__/
 *.bak
 *.swp
 *.test
+.DS_Store
 
 # Ignore pytest cache
 .cache/
