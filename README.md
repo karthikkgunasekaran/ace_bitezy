@@ -1,4 +1,4 @@
-# Bitezy - Online Food Ordering System
+# Bitezy - DevOps Demo App
 
 ## Overview
 Bitezy is a demo application designed to simulate an online food ordering system. This project aims to help students understand DevOps practices by providing a minimalistic UI built with Streamlit. Users can browse food items, place orders, and manage their wallets.
